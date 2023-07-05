@@ -1,3 +1,5 @@
+# Building a Neural Network from the Ground Up
+
 In this project, I build a fully-connected neural network from scratch on MNIST data. The challenge is to build it with only Python and NumPy and no other libraries. 
 
 ## Step 1: Load Dataset
