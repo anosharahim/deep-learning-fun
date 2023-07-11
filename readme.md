@@ -63,3 +63,5 @@ This is the main logic behind the gradient descent function. Using this chain ru
 When applying this neural network to the validation set, I set backpropagation off to compute loss and accuracy. Using mini-batches helped increase the speed of training and did not require holding the entire dataset in memory, as opposed to batch gradient descent. However, mini-batch still runs the risk of getting trapped at local minima. Moreover, increasing the learning rate to 5 resulted in 95% accuracy after 230 epochs, as opposed to staying at 94% after 300 epochs at a learning rate of 4. The learning can be improved in the future by adding other optimization methods such as by incrementally and adaptively increasing learning rate as needed, so as to not overshoot. So far, the neural network can predict handwritten digits with about 94.9% accuracy on the validation data as well as the test data, which shows evidence for little overfitting.  
 
 ## Step 5: Performance 
+
+<img width="442" alt="image" src="https://github.com/anosharahim/neural-network/assets/55622095/c6b785bc-5c40-4412-b835-d0896ce30c22">
