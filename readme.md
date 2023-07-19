@@ -1,6 +1,6 @@
-# Building a Neural Network from the Ground Up
+# Building a Neural Network from Scratch
 
-In this project, I build a fully-connected neural network from scratch on MNIST data. The challenge is to build it with only Python and NumPy and no other libraries. 
+In this project, I build a fully-connected neural network from scratch on the MNIST data. The challenge is to build it with only Python and NumPy and no other libraries. 
 
 ## Step 1: Load Dataset
 I used the MNIST dataset of 70,000 handwritten digit images from sklearn and split it into training (45,000 images), validation (15,000) and test set (10,000 images). The class labels are one-hot encoded in order for the neural network to interpret categorical variables.
