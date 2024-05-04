@@ -12,7 +12,7 @@ The neural network has 2 fully-connected layers. The first layer i.e. input has 
 #### Activation Function 
 For the activation function, I have used a sigmoid function which keeps the output of each neuron between 0 and 1:
 
-$\sigma(z) = \frac{1}{1+e^{-z}} $ 
+$\sigma(z) = \frac{1}{1+e^{-z}}$ 
 
 Since we are doing multi-class classification, I also used a Softmax function on the final layer. Softmax is a takes a vector as input and outputs a probability distribution whose total sums to one. As such , it gives the probability of an input belonging to any particular class. 
 
