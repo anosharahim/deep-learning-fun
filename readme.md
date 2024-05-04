@@ -16,7 +16,7 @@ $\sigma(z) = \frac{1}{1+e^{-z}}$
 
 Since we are doing multi-class classification, I also used a Softmax function on the final layer. Softmax is a takes a vector as input and outputs a probability distribution whose total sums to one. As such , it gives the probability of an input belonging to any particular class. 
 
-$S(\vec{x})_i = \frac{e^{x_i}}{\Sigma_{j=1}^{K}e^{x_j}} $
+$S(\vec{x})_i = \frac{e^{x_i}}{\Sigma_{j=1}^{K}e^{x_j}}$
 
 #### Loss Functions 
 We used a binary cross-entropy function as our loss function in conjunction with softmax. Where softmax outputs probabilities, cross entropy takes those probabilities and measures their distance from the truth value. 
@@ -34,9 +34,9 @@ I started out with batch gradient descent, and at a learning rate of 1 it was st
 #### Forward Pass
 In forward pass, the input values are fed through the neural network where weights w are multiplied by the input values X along with adding the bias. This is done for each layer as per the following formulas. 
 
-$ \hat{y} = \sigma (z)$\
-$ z = w^T x +b$ \
-$ \sigma(z) = \frac{1}{1+e^{-z}}$ 
+$\hat{y} = \sigma (z)$\
+$z = w^T x +b$ \
+$\sigma(z) = \frac{1}{1+e^{-z}}$ 
 
 
 #### Backward Pass 
