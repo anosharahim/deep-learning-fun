@@ -34,9 +34,9 @@ I started out with batch gradient descent, and at a learning rate of 1 it was st
 #### Forward Pass
 In forward pass, the input values are fed through the neural network where weights w are multiplied by the input values X along with adding the bias. This is done for each layer as per the following formulas. 
 
-$ \hat{y} = \sigma (z) $\
-$ z = w^T x +b $ \
-$ \sigma(z) = \frac{1}{1+e^{-z}} $ 
+$ \hat{y} = \sigma (z)$\
+$ z = w^T x +b$ \
+$ \sigma(z) = \frac{1}{1+e^{-z}}$ 
 
 
 #### Backward Pass 
@@ -48,7 +48,7 @@ We need to find the derivative of the loss function with respect of biases and w
 
 $\frac{\partial L}{\partial w_j}=\frac{\partial L}{\partial \hat{y}}.\frac{\partial \hat{y}}{\partial z}.\frac{\partial z}{\partial w_j}$
 
-$ \frac{\partial L}{\partial b} =\frac{1}{m} \Sigma_{i=1}^m(\hat{y}^i-y^i)  $ 
+$ \frac{\partial L}{\partial b} =\frac{1}{m} \Sigma_{i=1}^m(\hat{y}^i-y^i)$ 
 
 $\frac{\partial L}{\partial \hat{y}} = \frac{\hat{y}-y}{\hat{y}(1-\hat{y})}$
 
